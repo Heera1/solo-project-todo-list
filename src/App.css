@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +23,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #cdd5e6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +31,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+ }
 
 .App-link {
   color: #61dafb;
